@@ -1,0 +1,36 @@
+.footer {
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 180px;
+    width: 100%;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: white;
+    gap: 20px;
+    padding-top: 30px;
+}
+.social-media img {
+    height: 30px;
+    border: 1px solid white;
+    gap: 20px;
+}
+.faqs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.faqs p {
+    color: white;
+}
+.bottom-part-footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}

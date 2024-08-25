@@ -1,0 +1,79 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.178);
+    margin-left: 40%;
+    margin-top: 200px;
+}
+.login-header {
+    font-family: Humanist sans-serif;
+    margin-top: 50px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username {
+    width:235px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius:20px;
+    border: solid 1px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+.username::placeholder {
+    color:black;
+}
+.password {
+    width: 235px;
+    height: 30px;
+    border-radius:20px;
+    border: solid 1px;
+    padding-left: 15px;
+    background-color: transparent;
+}
+.password::placeholder {
+    color:black;
+}
+.first-bottom-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.links {
+    font-size: 15px;
+}
+.links2 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.button-container {
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+.button {
+    font-family: Humanist sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.bottom-link-container {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}

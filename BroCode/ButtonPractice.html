@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button Practice</title>
+        <link rel="icon" style="image/jpg" href="images/favicon.jpg">
+
+    </head>
+
+    <body>
+
+        <a href="ImagesPractice.html"
+            target="_blank">
+             
+            <button 
+            style="font-size:45px; 
+            background-color:red; 
+            color:white; 
+            border-radius:10px">
+            Button
+            </button>
+        </a>
+
+<br>
+
+        <button onclick="doSomething()" style="font-size:45px; 
+            background-color:cyan; 
+            color:red; 
+            border-radius:10px">
+            Button
+            </button>
+
+            <p id="Shanks">Red</p>
+
+            <script>
+                function doSomething(){
+                    document.getElementById("Shanks").innerHTML = "Blue";
+                }
+            </script>
+    </body>
+
+
+
+</html>

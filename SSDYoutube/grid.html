@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid practice</title>
+        <style>
+            .whole-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+            }
+            .inner-grid {
+                display: grid;
+                
+            }
+            .cat-container {
+                width: 200px;
+            }
+            .cat {
+                width: 200px;
+            }
+            .dog {
+                width: 30px;
+                height:30px;
+                border-radius: 50%;
+                padding:5px;
+            }
+            .dog-container {
+                display: grid;
+                grid-template-columns: 40px 1fr;
+                margin-left: 5px;
+            }
+            .oliver-container {
+                margin-left: 5px;
+            }
+            .name-oliver {
+                font-family: arial;
+                font-weight: bold;
+                font-size: 20px;
+                margin: 7px;
+                margin-bottom: 0px;
+            }
+            .mutual-friends {
+                margin-top: 10px;
+                margin-bottom: 0px;
+                padding-left:5px;
+                font-family: Arial;
+                color: grey;
+            }
+            .button {
+                color: white;
+                background-color: rgb(35, 139, 236);
+                border: none;
+                border-radius: 4px;
+                height: 30px;
+                width: 100px;
+                margin-left: 10px;
+            }
+            .preview {
+                height: 250px;
+                width: 200px;
+                border: none;
+                box-shadow: 0px 0px 5px;
+            }
+
+        </style>
+        
+    </head>
+
+        <body style="padding-bottom: 1000px">
+            <div style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 20px;
+                height: 400px;
+                ">
+                <div style="background-color: lightblue;">1fr</div>
+                <div style="background-color: lightpink;">1fr</div>
+                <div style="background-color: lightblue;">1fr</div>
+                <div style="background-color: lightpink;">1fr</div>
+                <div style="background-color: lightblue;">1fr</div>
+                <div style="background-color: lightpink;">1fr</div>
+            </div>
+<br><br><br>
+
+            <div class="whole-grid">
+                <div class="inner-grid">
+                    <div class="preview">
+                        <div class="cat-container">
+                            <img class="cat" src="images/cat.jpg">
+                        </div>
+                            <div class="oliver-container"><p class="name-oliver">Oliver</p></div>
+                                <div class="dog-container">
+                                    <img class="dog" src="images/dog2.jpg">
+                                    <p class="mutual-friends">2 mutual friends</p>
+                                        </div>
+                                            <button class="button">Add Friend</button>
+                    </div>
+                </div>
+
+                <div class="whole-grid">
+                    <div class="preview">
+                        <div class="cat-container">
+                            <img class="cat" src="images/cat.jpg">
+                        </div>
+                            <div class="oliver-container"><p class="name-oliver">Oliver</p></div>
+                                <div class="dog-container">
+                                    <img class="dog" src="images/dog2.jpg">
+                                    <p class="mutual-friends">2 mutual friends</p>
+                                        </div>
+                                            <button class="button">Add Friend</button>
+                    </div>
+                </div>
+
+                <div class="whole-grid">
+                    <div class="preview">
+                        <div class="cat-container">
+                            <img class="cat" src="images/cat.jpg">
+                        </div>
+                            <div class="oliver-container"><p class="name-oliver">Oliver</p></div>
+                                <div class="dog-container">
+                                    <img class="dog" src="images/dog2.jpg">
+                                    <p class="mutual-friends">2 mutual friends</p>
+                                        </div>
+                                            <button class="button">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+                
+          
+           
+            
+
+
+            
+        </body>
+
+
+</html>
+

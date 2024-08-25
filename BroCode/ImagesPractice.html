@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="icon" type="images/jpg" href="images/favicon.jpg">
+        <title>Image Practice</title>
+
+       
+    </head>
+    
+    <body>
+        <button style="font-size:40px;margin-left:800px;">What if you said</button>
+        <br>
+        <hr>
+        <img src="images/bro is.jpg"
+        height=200px
+        style="margin-left:800px;">
+        <br><br>
+             <button id="ASong" onClick="playPause()"
+             style="font-size: 80px; margin-left:680px;">
+                <audio
+                  src="Songs/vineboom.mp3"
+                  
+                  
+                ></audio>
+ 
+                BUT GOD SAID</button>
+
+                <script>
+                    var aud = document.getElementById("ASong").children[0];
+                    var isPlaying = false;
+                    aud.pause();
+                  
+                    function playPause() {
+                      if (isPlaying) {
+                        aud.pause();
+                      } else {
+                        aud.play();
+                      }
+                      isPlaying = !isPlaying;
+                    }
+                  </script>
+
+
+                <br><br>
+
+        <a href="https://www.facebook.com/givenreginaldo" target="_blank">
+        <img src="images/Gay mf.jpg"
+        height="400px;"
+        width="800px;"
+        style="margin-left:550px;">
+        </a>
+        <hr>
+
+        
+    </body>
+
+
+
+</html>
