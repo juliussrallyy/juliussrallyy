@@ -17,30 +17,37 @@
     justify-content: center;
     margin-left: 100px;
 }
+
 .left-side p {
     color: White;
     font-weight: bold;
     font-size: 20px;
 }
+
 .rally {
     color: orangered;
 }
+
 .middle-side {
     display: flex;
     gap: 50px;
 }
+
 .middle-side p {
     color: white;
     font-size: 20px;
     cursor: pointer;
     transition: ease-in-out 0.1s;
 }
+
 .middle-side p:hover {
     color:orangered;
 }
+
 .middle-side p:active {
     color: white;
 }
+
 .right-side {
     display: flex;
     margin-right: 100px;
@@ -56,11 +63,13 @@
     cursor: pointer;
     transition: 0.2s;
 }
+
 .right-side button:hover {
     background-color: black;
     color: white;
     border: 1px solid white;
 }
+
 .right-side button:active {
     background-color: white;
     color: black;
